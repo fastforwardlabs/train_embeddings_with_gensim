@@ -11,7 +11,6 @@ With support for hyperparameter optimization and early stopping.
 - [] fix broken links in the **Deploying on CML** section
 
 ## Deploying on Cloudera Machine Learning (CML)
------
 There are three ways to launch this notebook on CML:
 
 * **From Prototype Catalog** - Navigate to the Prototype Catalog in a CML workspace, select the "Analyzing News Headlines with SpaCy" tile, click "Launch as Project", click "Configure Project"
