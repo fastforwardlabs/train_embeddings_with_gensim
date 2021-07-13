@@ -3,12 +3,12 @@ With support for hyperparameter optimization and early stopping.
 
 
 ### TODO
-[] clean up the Jupyter notebook and add more documentation
-[] some kind of figure to jazz up the README
-[] install script because I think it's too much for the jupyter notebook
-[] fill out the yaml to include running the scripts as jobs?
-[] alternatively, include instructions in the `scripts` directory on how to run them separately?
-[] fix broken links in the **Deploying on CML** section
+- [] clean up the Jupyter notebook and add more documentation
+- [] some kind of figure to jazz up the README
+- [] install script because I think it's too much for the jupyter notebook
+- [] fill out the yaml to include running the scripts as jobs?
+- [] alternatively, include instructions in the `scripts` directory on how to run them separately?
+- [] fix broken links in the **Deploying on CML** section
 
 ## Deploying on Cloudera Machine Learning (CML)
 -----
