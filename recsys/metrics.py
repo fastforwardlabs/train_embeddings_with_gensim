@@ -9,13 +9,17 @@ def recall_at_k(test, embeddings, k: int = 10) -> float:
     """
     ratk_score = 0
     for query_item, ground_truth in test:
-        # get the k most similar items to the query item (computes cosine similarity)
-        neighbors = embeddings.similar_by_vector(query_item, topn=k)
-        # clean up the list
-        recommendations = [item for item, score in neighbors]
-        # check if ground truth is in the recommedations
-        if ground_truth in recommendations:
-            ratk_score += 1
+        try:
+            # get the k most similar items to the query item (computes cosine similarity)
+            neighbors = embeddings.similar_by_vector(query_item, topn=k)
+        except KeyError:
+            pass
+        else:
+            # clean up the list
+            recommendations = [item for item, score in neighbors]
+            # check if ground truth is in the recommedations
+            if ground_truth in recommendations:
+                ratk_score += 1
     ratk_score /= len(test)
     return ratk_score
 
