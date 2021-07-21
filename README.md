@@ -18,7 +18,7 @@ We make use of the Online Retail dataset, which consists of customer purchase or
 Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail industry: A case study of RFM model-based customer segmentation using data mining, Journal of Database Marketing and Customer Strategy Management, Vol. 19, No. 3, pp. 197â€“208, 2012 (Published online before print: 27 August 2012. doi: 10.1057/dbm.2012.17).
 
 ### Related Work
-The small library underpinning this repo was originally developed for the Cloudera Fast Forward Labs report on [Session-based Recommendation Systems]https://session-based-recommenders.fastforwardlabs.com/). The original repo can be found [here](https://github.com/fastforwardlabs/session_based_recommenders) and includes scripts that can be automated to perform the tasks we demonstrate in this notebook. 
+The small library underpinning this repo was originally developed for the Cloudera Fast Forward Labs report on [Session-based Recommendation Systems](https://session-based-recommenders.fastforwardlabs.com/). The original repo can be found [here](https://github.com/fastforwardlabs/session_based_recommenders) and includes scripts that can be automated to perform the tasks we demonstrate in this notebook. 
 
 Cloudera Fast Forward also published a blog post that explores the _why_ behind the early stopping mechanism used in this repo.
 
