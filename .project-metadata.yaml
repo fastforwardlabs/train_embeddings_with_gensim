@@ -5,3 +5,8 @@ specification_version: 1.0
 prototype_version: 1.0
 date: "2021-07-13"
 api_version: 1
+
+runtimes:
+  - editor: Workbench
+    kernel: Python 3.8
+    edition: Standard
