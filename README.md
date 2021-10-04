@@ -12,17 +12,20 @@ We also demonstrate two simple methods for evaluating the learned embeddings
 * qualitative comparison of similar embeddings
 * quantitative analysis of their performance in a simple recommendation system
 
+### Installation
+Package installation occurs in the first cell of the Jupyter Notebook, which accesses the `requirements.txt` file in the top-level directory. 
+
+In CML/CDSW, simply start a new Jupyter Notebook session with 2CPUv/4GiB [TODO: check this] and proceed! 
+
 ### Data 
 We make use of the Online Retail dataset, which consists of customer purchase orders through an e-commerce boutique over the course of a year. The data is open source with citation to the original authors. We obtained the data from the [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/online+retail). 
 
 Daqing Chen, Sai Liang Sain, and Kun Guo, Data mining for the online retail industry: A case study of RFM model-based customer segmentation using data mining, Journal of Database Marketing and Customer Strategy Management, Vol. 19, No. 3, pp. 197â€“208, 2012 (Published online before print: 27 August 2012. doi: 10.1057/dbm.2012.17).
 
 ### Related Work
-The small library underpinning this repo was originally developed for the Cloudera Fast Forward Labs report on [Session-based Recommendation Systems](https://session-based-recommenders.fastforwardlabs.com/). The original repo can be found [here](https://github.com/fastforwardlabs/session_based_recommenders) and includes scripts that can be automated to perform the tasks we demonstrate in this notebook. 
+Some of the code in the Jupyter Notebook was originally developed for the Cloudera Fast Forward Labs report on [Session-based Recommendation Systems](https://session-based-recommenders.fastforwardlabs.com/). The original repo can be found [here](https://github.com/fastforwardlabs/session_based_recommenders) and includes scripts that can be automated to perform the tasks we demonstrate in this notebook. 
 
-Cloudera Fast Forward also published a blog post that explores the _why_ behind the early stopping mechanism used in this repo.
-
-Finally, CFFL published an Applied Machine Learning Prototype that demonstrates a simple use case for distributed training of a Gensim topic model. We note that, to our knowledge, distributed training is not supported by Gensim for the Word2Vec model we use here. 
+Cloudera Fast Forward also published a [blog post](https://blog.fastforwardlabs.com/2021/09/20/how-and-when-to-enable-early-stopping-for-gensims-word2vec.html) that explores the _why_ behind the early stopping mechanism used in this repo.
 
 
 ## Deploying on Cloudera Machine Learning (CML)
